@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+<
+<ion-content padding>
+
+     <div class="center">
+        <div class="ionic-logo"></div>
+    </div>
+
+     <ion-card>
+       <ion-card-header primary>
+         Oracle CX Apps are here to help you
+       </ion-card-header>
+       <ion-list>
+         <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820516')">
+           <ion-icon color="primary" name="cloud" item-left></ion-icon>
+           OFSC
+         </button>
+
+         <button ion-item primary (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820761')">
+           <ion-icon color="primary" name="school" item-left></ion-icon>
+           OPA
+         </button>
+
+         <button ion-item primary (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820520')">
+           <ion-icon color="primary" name="thunderstorm" item-left></ion-icon>
+           OEC
+         </button>
+
+         <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820524')">
+           <ion-icon color="primary" name="speedometer" item-left></ion-icon>
+           Custom 1
+         </button>
+
+         <button ion-item (click)="onLink('http://go.microsoft.com/fwlink/?LinkID=820526')">
+           <ion-icon color="primary" name="stopwatch" item-left></ion-icon>
+           Custom 2
+         </button>
+       </ion-list>
+
+     </ion-card>
+
+	  <button ion-button secondary menuToggle color="secondary">Toggle Menu</button>
+</ion-content>
